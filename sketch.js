@@ -7,7 +7,6 @@ let labels = [
     1,
     0
 ]
-// Failure. Dataset is limited. Needs a huge amount of epochs and units to process.
 
 function preload() {
     rawdata = loadTable('dataset.csv', 'csv', 'header');
